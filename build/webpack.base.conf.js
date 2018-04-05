@@ -4,14 +4,14 @@ const config = require('../config')
 
 // 创建eslint规则
 const createLintingRule = () => ({
-  test: /\.(ts)$/,
-  loader: 'tslint-loader',
-  enforce: 'pre',
-  include: [utils.resolve('src'), utils.resolve('test')],
-  options: {
-    // formatter: require('eslint-friendly-formatter'),
-    emitWarning: !config.dev.showEslintErrorsInOverlay
-  }
+  // test: /\.(ts)$/,
+  // loader: 'tslint-loader',
+  // enforce: 'pre',
+  // include: [utils.resolve('src'), utils.resolve('test')],
+  // options: {
+  //   // formatter: require('eslint-friendly-formatter'),
+  //   emitWarning: !config.dev.showEslintErrorsInOverlay
+  // }
 })
 
 module.exports = {
