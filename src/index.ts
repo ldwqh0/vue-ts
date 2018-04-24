@@ -5,6 +5,12 @@ import App from './App'
 import VMap from 'vue-esri'
 import VueRouter from 'vue-router'
 
+// declare module 'vue/types/vue' {
+//   interface Vue {
+//     $esriLoader:string
+//   }
+// }
+
 Vue.config.productionTip = false
 Vue.use(VMap)
 console.log('Created By ldwqh0@outlook.com')
